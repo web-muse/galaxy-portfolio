@@ -2,7 +2,7 @@
 
 **A cosmic, interactive 3D portfolio by Vladyslav Shtatskyi - [techinz.dev](https://techinz.dev)**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/techinz/galaxy-portfolio/blob/main/LICENSE)
+[![License: Custom](https://img.shields.io/badge/license-personal--use--only-red)](https://github.com/techinz/galaxy-portfolio/blob/main/LICENSE)
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-techinz.dev-purple?style=flat-square)](https://techinz.dev)
 [![Hours Spent](https://img.shields.io/badge/Hours%20Spent-250%2B-blue?style=flat-square)](https://github.com/techinz/galaxy-portfolio)
 
