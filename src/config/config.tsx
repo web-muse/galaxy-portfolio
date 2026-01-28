@@ -4,11 +4,7 @@ import { Color, Quaternion, Vector3 } from "three";
 const BASE_URL = import.meta.env.BASE_URL || '/';
 
 // Helper function to create asset path with base URL
-const assetPath = (path: string) => {
-    const fullPath = `${BASE_URL}${path.startsWith('/') ? path.slice(1) : path}`;
-    console.log(`Asset path: ${path} -> ${fullPath}`);
-    return fullPath;
-};
+const assetPath = (path: string) => `${BASE_URL}${path.startsWith('/') ? path.slice(1) : path}`;
 
 // Global
 export const GLOBAL = {

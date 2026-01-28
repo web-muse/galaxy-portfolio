@@ -33,11 +33,11 @@ export class ErrorBoundary extends Component<PropsWithChildren, ErrorBoundarySta
     };
 
     handleStaticVersion = (): void => {
-        window.location.href = '/templates/Portfolio.html';
+        window.location.href = `${import.meta.env.BASE_URL}templates/Portfolio.html`;
     };
 
     handleConnectDeveloper = (): void => {
-        window.location.href = '/templates/Portfolio.html#contact';
+        window.location.href = `${import.meta.env.BASE_URL}templates/Portfolio.html#contact`;
     };
 
     render() {

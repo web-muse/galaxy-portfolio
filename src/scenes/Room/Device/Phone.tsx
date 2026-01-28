@@ -271,7 +271,7 @@ const Phone: React.FC<PhoneProps> = ({ roomGLTF }): JSX.Element => {
                     {/* web content (portfolio) */}
                     <div className={styles['web-content']}>
                         <iframe
-                            src="/templates/Portfolio.html"
+                            src={`${import.meta.env.BASE_URL}templates/Portfolio.html`}
                             title="Portfolio"
                             className={styles['content-iframe']}
                         />
