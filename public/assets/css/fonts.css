@@ -1,7 +1,7 @@
 /* Inter (Variable) */
 @font-face {
   font-family: 'Inter';
-  src: url('/assets/fonts/Inter/Inter-Variable.woff2') format('woff2-variations');
+  src: url('../fonts/Inter/Inter-Variable.woff2') format('woff2-variations');
   font-weight: 100 900;
   font-display: swap;
 }
@@ -9,7 +9,7 @@
 /* Space Grotesk */
 @font-face {
   font-family: 'Space Grotesk';
-  src: url('/assets/fonts/Space-Grotesk/SpaceGrotesk-Regular.woff2') format('woff2');
+  src: url('../fonts/Space-Grotesk/SpaceGrotesk-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -17,7 +17,7 @@
 
 @font-face {
   font-family: 'Space Grotesk';
-  src: url('/assets/fonts/Space-Grotesk/SpaceGrotesk-Medium.woff2') format('woff2');
+  src: url('../fonts/Space-Grotesk/SpaceGrotesk-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
