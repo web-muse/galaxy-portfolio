@@ -126,7 +126,7 @@ Why build it this way? Because portfolios should be memorable experiences, not j
 
 1. **Clone the repo:**
     ```bash
-    git clone https://github.com/techinz/galaxy-portfolio.git
+    git clone https://github.com/web-muse/galaxy-portfolio.git
     cd galaxy-portfolio
     ```
 
