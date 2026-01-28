@@ -1,7 +1,7 @@
 **A cosmic, interactive 3D portfolio by Karan Bhujel - [web-muse](https://web-muse.dev)**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/karanbhujel/galaxy-portfolio/blob/main/LICENSE)
-[![Live Demo](https://web-muse.github.io/galaxy-portfolio)](https://web-muse.dev)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-web--muse-purple?style=flat-square)]([https://web-muse.dev](https://web-muse.github.io/galaxy-portfolio/))
 [![Hours Spent](https://img.shields.io/badge/Hours%20Spent-250%2B-blue?style=flat-square)](https://github.com/karanbhujel/galaxy-portfolio)
 
 ## 📑 Table of Contents
@@ -24,7 +24,7 @@
 
 Welcome to **Galaxy Portfolio** – an interactive 3D portfolio that lets you zoom from the Milky Way galaxy all the way down to my workspace.
 
-**Live Demo:** [web-muse.dev](https://web-muse.dev)
+**Live Demo:** [web-muse.dev]([https://web-muse.dev](https://web-muse.github.io/galaxy-portfolio/))
 
 ## 📸 Demonstration
 
@@ -221,7 +221,7 @@ For a complete list of all third-party models, textures, icons, and references u
 - **Email:** [aboveimagination001@gmail.com](mailto:aboveimagination001@gmail.com)
 - **Phone:** [+971 56 766 4853](tel:+971567664853)
 - **Location:** Dubai, UAE
-- **GitHub:** [github.com/karanbhujel](https://github.com/karanbhujel)
+- **GitHub:** [github.com/karanbhujel](https://github.com/web-muse)
 
 ## 🤝 Work With Me
 
@@ -232,5 +232,5 @@ I'm available for freelance projects and full-time positions. If you liked this 
 
 ## ⭐️ If you like this project...
 
-- Star it on [GitHub](https://github.com/techinz/galaxy-portfolio)
+- Star it on [GitHub](https://github.com/web-muse/galaxy-portfolio)
 - Share your feedback or fork for your own cosmic journey!
