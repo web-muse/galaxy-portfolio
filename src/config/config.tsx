@@ -1,5 +1,11 @@
 import { Color, Quaternion, Vector3 } from "three";
 
+// Get base URL for assets (important for GitHub Pages deployment)
+const BASE_URL = import.meta.env.BASE_URL || '/';
+
+// Helper function to create asset path with base URL
+const assetPath = (path: string) => `${BASE_URL}${path.startsWith('/') ? path.slice(1) : path}`;
+
 // Global
 export const GLOBAL = {
     INITIAL_CAMERA_MOBILE_POS: new Vector3(0, -12, 5.5), // initial camera position for mobile devices
@@ -21,66 +27,66 @@ export const SCENE_MANAGER = {
         models: {
             // scenes
             galaxy: {
-                galaxy: '/assets/models/galaxy.glb'
+                galaxy: assetPath('/assets/models/galaxy.glb')
             },
             room: {
-                room: '/assets/models/room.glb',
-                phone: '/assets/models/phone.glb',
-                monitor: '/assets/models/monitor.glb',
+                room: assetPath('/assets/models/room.glb'),
+                phone: assetPath('/assets/models/phone.glb'),
+                monitor: assetPath('/assets/models/monitor.glb'),
             }
         },
         textures: {
             // scenes
             galaxy: {
-                disc: '/assets/img/discs/disc.png',
+                disc: assetPath('/assets/img/discs/disc.png'),
             },
             solarSystem: {
-                disc: '/assets/img/discs/disc.png',
-                smoke: '/assets/img/other/smoke.png',
-                sun: '/assets/img/planets/sun.jpg',
-                mercury: '/assets/img/planets/mercury.jpg',
-                venus: '/assets/img/planets/venus.jpg',
-                earth: '/assets/img/planets/earth.jpg',
-                earthnight: '/assets/img/planets/earthnight.jpg',
-                earthclouds: '/assets/img/planets/earthclouds.jpg',
-                mars: '/assets/img/planets/mars.jpg',
-                jupiter: '/assets/img/planets/jupiter.jpg',
-                saturn: '/assets/img/planets/saturn.jpg',
-                saturnring: '/assets/img/planets/saturnring.jpg',
-                uranus: '/assets/img/planets/uranus.jpg',
-                uranusring: '/assets/img/planets/uranusring.jpg',
-                neptune: '/assets/img/planets/neptune.jpg',
+                disc: assetPath('/assets/img/discs/disc.png'),
+                smoke: assetPath('/assets/img/other/smoke.png'),
+                sun: assetPath('/assets/img/planets/sun.jpg'),
+                mercury: assetPath('/assets/img/planets/mercury.jpg'),
+                venus: assetPath('/assets/img/planets/venus.jpg'),
+                earth: assetPath('/assets/img/planets/earth.jpg'),
+                earthnight: assetPath('/assets/img/planets/earthnight.jpg'),
+                earthclouds: assetPath('/assets/img/planets/earthclouds.jpg'),
+                mars: assetPath('/assets/img/planets/mars.jpg'),
+                jupiter: assetPath('/assets/img/planets/jupiter.jpg'),
+                saturn: assetPath('/assets/img/planets/saturn.jpg'),
+                saturnring: assetPath('/assets/img/planets/saturnring.jpg'),
+                uranus: assetPath('/assets/img/planets/uranus.jpg'),
+                uranusring: assetPath('/assets/img/planets/uranusring.jpg'),
+                neptune: assetPath('/assets/img/planets/neptune.jpg'),
             },
             continent: {
-                continent: '/assets/img/continent/gcc.jpg',
+                continent: assetPath('/assets/img/continent/gcc.jpg'),
             },
             city: {
-                city: '/assets/img/city/city.jpg',
+                city: assetPath('/assets/img/city/city.jpg'),
             },
             district: {
-                district: '/assets/img/district/dubai.jpg',
+                district: assetPath('/assets/img/district/dubai.jpg'),
             },
         },
         icons: {
             // zoom progress indicator
             zoomProgressIndicator: {
-                galaxy: '/assets/icons/zoom_progress_indicator/galaxy.png',
-                solarSystemApproach: '/assets/icons/zoom_progress_indicator/space.png',
-                solarSystemRotation: '/assets/icons/zoom_progress_indicator/solarsystem.png',
-                earthApproach: '/assets/icons/zoom_progress_indicator/earthapproach.png',
-                earth: '/assets/icons/zoom_progress_indicator/earth.png',
-                continent: '/assets/icons/zoom_progress_indicator/continent.png',
-                city: '/assets/icons/zoom_progress_indicator/city.png',
-                district: '/assets/icons/zoom_progress_indicator/district.png',
-                room: '/assets/icons/zoom_progress_indicator/room.png',
+                galaxy: assetPath('/assets/icons/zoom_progress_indicator/galaxy.png'),
+                solarSystemApproach: assetPath('/assets/icons/zoom_progress_indicator/space.png'),
+                solarSystemRotation: assetPath('/assets/icons/zoom_progress_indicator/solarsystem.png'),
+                earthApproach: assetPath('/assets/icons/zoom_progress_indicator/earthapproach.png'),
+                earth: assetPath('/assets/icons/zoom_progress_indicator/earth.png'),
+                continent: assetPath('/assets/icons/zoom_progress_indicator/continent.png'),
+                city: assetPath('/assets/icons/zoom_progress_indicator/city.png'),
+                district: assetPath('/assets/icons/zoom_progress_indicator/district.png'),
+                room: assetPath('/assets/icons/zoom_progress_indicator/room.png'),
                 // end (last point) - when last scene zoomed in (not a real scene, just visual because the zoom indicator goes below the room)
-                end: '/assets/icons/zoom_progress_indicator/pin.png',
+                end: assetPath('/assets/icons/zoom_progress_indicator/pin.png'),
 
 
                 // character icons
-                astronaut: '/assets/icons/zoom_progress_indicator/astronaut.png',
-                superhero: '/assets/icons/zoom_progress_indicator/superhero.png',
-                human: '/assets/icons/zoom_progress_indicator/human.png',
+                astronaut: assetPath('/assets/icons/zoom_progress_indicator/astronaut.png'),
+                superhero: assetPath('/assets/icons/zoom_progress_indicator/superhero.png'),
+                human: assetPath('/assets/icons/zoom_progress_indicator/human.png'),
             }
         }
     }
