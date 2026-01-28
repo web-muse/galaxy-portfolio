@@ -1,7 +1,7 @@
 **A cosmic, interactive 3D portfolio by Karan Bhujel - [web-muse](https://web-muse.dev)**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/karanbhujel/galaxy-portfolio/blob/main/LICENSE)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-web--muse-purple?style=flat-square)](https://web-muse.dev)
+[![Live Demo](https://web-muse.github.io/galaxy-portfolio)](https://web-muse.dev)
 [![Hours Spent](https://img.shields.io/badge/Hours%20Spent-250%2B-blue?style=flat-square)](https://github.com/karanbhujel/galaxy-portfolio)
 
 ## 📑 Table of Contents
