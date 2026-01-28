@@ -1,5 +1,3 @@
-# <img src="public/favicon/favicon-32x32.png" width="32" alt="🌌" style="vertical-align:middle;"> Galaxy Portfolio
-
 **A cosmic, interactive 3D portfolio by Karan Bhujel - [web-muse](https://web-muse.dev)**
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/karanbhujel/galaxy-portfolio/blob/main/LICENSE)
