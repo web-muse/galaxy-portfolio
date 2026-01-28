@@ -52,13 +52,13 @@ export const SCENE_MANAGER = {
                 neptune: '/assets/img/planets/neptune.jpg',
             },
             continent: {
-                continent: '/assets/img/continent/continent.jpg',
+                continent: '/assets/img/continent/gcc.jpg',
             },
             city: {
                 city: '/assets/img/city/city.jpg',
             },
             district: {
-                district: '/assets/img/district/district.jpg',
+                district: '/assets/img/district/dubai.jpg',
             },
         },
         icons: {
@@ -273,9 +273,9 @@ export const EARTH = {
 export const IMAGE_SCENE = {
     IMAGE_PLANE_POSITION: new Vector3(5, 5, 5), // image position
     IMAGES_DATA: {
-        continent: { width: 1846, height: 1080, targetRepeat: { x: 0.1, y: 0.1 }, targetCoords: { x: 800, y: 700 } },
-        city: { width: 1846, height: 1080, targetRepeat: { x: 0.1, y: 0.1 }, targetCoords: { x: 670, y: 500 } },
-        district: { width: 1846, height: 1080, targetRepeat: { x: 0.1, y: 0.1 }, targetCoords: { x: 1150, y: 850 } },
+        continent: { width: 600, height: 600, targetRepeat: { x: 0.15, y: 0.15 }, targetCoords: { x: 380, y: 280 } },
+        city: { width: 1280, height: 854, targetRepeat: { x: 0.1, y: 0.1 }, targetCoords: { x: 640, y: 427 } },
+        district: { width: 1280, height: 854, targetRepeat: { x: 0.25, y: 0.25 }, targetCoords: { x: 650, y: 20 } },
     }
 }
 

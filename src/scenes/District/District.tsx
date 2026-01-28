@@ -61,7 +61,7 @@ export function District() {
       y: imageData.targetCoords.y / imageData.height
     };
 
-    // zoom in sequence: satellite picture (Europe continent) -> city picture (Hannover) -> district picture (hannover3D) -> room model (gltf)
+    // zoom in sequence: satellite picture (GCC continent) -> city picture (UAE) -> district picture (Dubai) -> room model (gltf)
     // pictures are zoomed in with a motion blur effect and then the camera is animated to the room model's monitor
 
     const tl = gsap.timeline({

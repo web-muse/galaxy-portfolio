@@ -3,14 +3,14 @@
   "private": true,
   "version": "0.1.0",
   "description": "Interactive 3D portfolio with zoom-based navigation through space scenes",
-  "author": "Vladyslav Shtatskyi",
-  "url": "https://techinz.dev",
+  "author": "Karan Bhujel",
+  "url": "https://web-muse.dev",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/techinz/galaxy-portfolio"
+    "url": "https://github.com/karanbhujel/galaxy-portfolio"
   },
-  "homepage": "https://techinz.dev",
+  "homepage": "https://web-muse.dev",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -55,6 +55,7 @@
     "space",
     "galaxy",
     "solar system",
-    "techinz"
+    "web-muse",
+    "karan-bhujel"
   ]
 }

@@ -27,7 +27,7 @@ const ZoomProgressIndicator = () => {
   // reset zoom progress when the scene changes
   useEffect(() => {
     setZoomProgress(['in', null].includes(zoomDirection) ? 0 : 1);
-  }, [currentScene])
+  }, [currentScene, zoomDirection])
 
   const sceneOrder = SCENE_MANAGER.SCENE_ORDER.concat(['end']);  // add 'end' to the end of the last scene for zoomed in state
 

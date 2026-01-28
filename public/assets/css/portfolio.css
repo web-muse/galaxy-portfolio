@@ -123,9 +123,9 @@ body {
 }
 
 .hero-image {
-    width: 185px;
-    height: 175px;
-    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
     overflow: hidden;
     position: relative;
     border: none;
@@ -135,7 +135,7 @@ body {
     content: '';
     position: absolute;
     inset: -6px;
-    border-radius: 50%;
+    border-radius: 15px;
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
     z-index: -1;
@@ -156,13 +156,13 @@ body {
 }
 
 .hero-image img {
-    width: 180%;
-    height: auto;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     position: relative;
-    left: 50%;
-    top: 35%;
-    transform: translate(-50%, -50%);
+    left: 0;
+    top: 0;
+    transform: none;
 }
 
 .hero-text {

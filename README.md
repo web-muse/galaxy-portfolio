@@ -1,10 +1,10 @@
 # <img src="public/favicon/favicon-32x32.png" width="32" alt="🌌" style="vertical-align:middle;"> Galaxy Portfolio
 
-**A cosmic, interactive 3D portfolio by Vladyslav Shtatskyi - [techinz.dev](https://techinz.dev)**
+**A cosmic, interactive 3D portfolio by Karan Bhujel - [web-muse](https://web-muse.dev)**
 
-[![License: Custom](https://img.shields.io/badge/license-personal--use--only-red)](https://github.com/techinz/galaxy-portfolio/blob/main/LICENSE)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-techinz.dev-purple?style=flat-square)](https://techinz.dev)
-[![Hours Spent](https://img.shields.io/badge/Hours%20Spent-250%2B-blue?style=flat-square)](https://github.com/techinz/galaxy-portfolio)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/karanbhujel/galaxy-portfolio/blob/main/LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-web--muse-purple?style=flat-square)](https://web-muse.dev)
+[![Hours Spent](https://img.shields.io/badge/Hours%20Spent-250%2B-blue?style=flat-square)](https://github.com/karanbhujel/galaxy-portfolio)
 
 ## 📑 Table of Contents
 - [Overview](#-overview)
@@ -26,7 +26,7 @@
 
 Welcome to **Galaxy Portfolio** – an interactive 3D portfolio that lets you zoom from the Milky Way galaxy all the way down to my workspace.
 
-**Live Demo:** [techinz.dev](https://techinz.dev)
+**Live Demo:** [web-muse.dev](https://web-muse.dev)
 
 ## 📸 Demonstration
 
@@ -220,14 +220,15 @@ For a complete list of all third-party models, textures, icons, and references u
 
 ## 💬 Contact
 
-- **Email:** [contact@techinz.dev](mailto:contact@techinz.dev)
-- **LinkedIn:** [Vladyslav Shtatskyi](https://www.linkedin.com/in/vladyslav-shtatskyi-8752092a7/)
-- **Telegram:** [@playweb3](https://t.me/playweb3)
+- **Email:** [aboveimagination001@gmail.com](mailto:aboveimagination001@gmail.com)
+- **Phone:** [+971 56 766 4853](tel:+971567664853)
+- **Location:** Dubai, UAE
+- **GitHub:** [github.com/karanbhujel](https://github.com/karanbhujel)
 
 ## 🤝 Work With Me
 
 I'm available for freelance projects and full-time positions. If you liked this portfolio and need a Software Engineer -
-**[Email me directly](mailto:contact@techinz.dev) to discuss how I can help you.**
+**[Email me directly](mailto:aboveimagination001@gmail.com) to discuss how I can help you.**
 
 ---
 

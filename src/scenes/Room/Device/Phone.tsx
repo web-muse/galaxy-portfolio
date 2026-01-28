@@ -244,7 +244,7 @@ const Phone: React.FC<PhoneProps> = ({ roomGLTF }): JSX.Element => {
                                 </svg>
 
                                 <div className={styles['url-text']}>
-                                    techinz.dev
+                                    web-muse
                                 </div>
                             </div>
 

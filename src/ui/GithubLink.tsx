@@ -9,13 +9,13 @@ function GithubLink() {
         if (isMobile) {
             event.preventDefault();
             // force open in new window for mobile browsers that might behave differently
-            window.open('https://github.com/techinz/galaxy-portfolio', '_blank', 'noopener,noreferrer');
+            window.open('https://github.com/karanbhujel', '_blank', 'noopener,noreferrer');
         }
     };
 
     return (
         <a
-            href="https://github.com/techinz/galaxy-portfolio"
+            href="https://github.com/karanbhujel"
             target="_blank"
             rel="noopener noreferrer"
             className={styles['open-source-link']}

@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig(() => {
   const config = {
     plugins: [react()],
+    base: '/galaxy-portfolio/', // Replace with your repo name
   }
 
   // Development-only settings

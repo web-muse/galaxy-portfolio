@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { useMobile } from '../contexts/MobileContext';
 import { useSceneStore } from '../core/SceneManager';
 import { SCENE_MANAGER } from '../config/config';
@@ -20,7 +20,7 @@ function SceneTextComponent() {
   const topPosition = isMobile ? '20px' : '30px';
 
   // get scene text based on current scene
-  const getSceneText = () => {
+  const getSceneText = useCallback(() => {
     switch (currentScene) {
       case 'galaxy':
         return { header: 'Milky Way', sub: 'Galaxy' };
@@ -33,17 +33,17 @@ function SceneTextComponent() {
       case 'earth':
         return { header: 'Earth', sub: 'Planet' };
       case 'continent':
-        return { header: 'Europe', sub: 'Continent' };
+        return { header: 'GCC', sub: 'Continent' };
       case 'city':
-        return { header: 'Hannover, Germany', sub: 'City' };
+        return { header: 'United Arab Emirates', sub: 'Country' };
       case 'district':
-        return { header: 'Mitte, Hannover', sub: 'District' };
+        return { header: 'Dubai', sub: 'City' };
       case 'room':
         return { header: 'My Studio', sub: 'Workspace' };
       default:
         return null;
     }
-  };
+  }, [currentScene]);
   const [localText, setLocalText] = useState<SceneText | null>(getSceneText());
 
   useEffect(() => {
@@ -61,7 +61,7 @@ function SceneTextComponent() {
     } else if (localText) { // when parent clears overlayText, clear localText.
       setLocalText(null)
     }
-  }, [currentScene, sceneZoomed]);
+  }, [currentScene, sceneZoomed, getSceneText, localText]);
 
   return (
     <div

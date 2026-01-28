@@ -47,6 +47,20 @@ export function Room() {
         repeatDelay: 0.1
       });
     }
+
+    // Hide techinz.dev text on wall
+    roomGLTF.scene.traverse((child) => {
+      // Try to find the text object by common naming patterns
+      if (child.name && (
+        child.name.toLowerCase().includes('text') ||
+        child.name.toLowerCase().includes('techinz') ||
+        child.name.toLowerCase().includes('sign') ||
+        child.name.toLowerCase().includes('wall') && child.name.toLowerCase().includes('text')
+      )) {
+        child.visible = false;
+        console.log('Hidden wall text object:', child.name);
+      }
+    });
   }, [roomGLTF]);
 
   // get screen position (monitor or phone) in the room model to zoom in

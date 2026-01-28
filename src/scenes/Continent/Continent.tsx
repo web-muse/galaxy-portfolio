@@ -9,9 +9,10 @@ import { useMotionBlurComposer } from "../../hooks/usePostProcessing";
 import { setupZoomCamera } from "../../utils/setupZoomCamera";
 import { useMobile } from "../../contexts/MobileContext";
 import { Mesh, MeshBasicMaterial, PerspectiveCamera, TextureLoader } from "three";
+import type { Viewport } from "@react-three/fiber";
 
 export function Continent() {
-  const { viewport, camera } = useThree() as { viewport: any, camera: PerspectiveCamera };
+  const { viewport, camera } = useThree() as { viewport: Viewport, camera: PerspectiveCamera };
 
   const {
     currentScene,
